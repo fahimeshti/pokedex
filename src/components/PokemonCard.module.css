@@ -1,0 +1,21 @@
+.card {
+    width: 9rem;
+    margin: 12px;
+    background-color: #2F3136;
+    color: #fff;
+    cursor: pointer;
+}
+.card img {
+    width: 80% !important;
+    margin: auto;
+}
+
+.card:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.text_center {
+    text-align: center !important;
+    font-size: 15px !important;
+    text-transform: uppercase;
+}

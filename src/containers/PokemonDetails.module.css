@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+.main {
+    color: #222 !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+.top_info {
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: #222 !important;
+}
+.top_info h4 {
+    text-transform: capitalize;
+}
+.imgs {
+    /* padding: 15px; */
+    width: 150px;
+    margin-left: 28px;
+}
+
+.top_info span {
+    display: block;
+    text-align: left;
+}
+.flexBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.rightCol {
+    display: block;
+    width: 25rem !important;
+}
+hr {
+    color: #222;
+}
+.bottom_info {
+    padding-bottom: 15px;
+}
+.bottom_info h5 {
+    text-align: center;
+}
+.bottomLeft {
+    display: flex;
+    flex-direction: row;
+}
+
+.bottomLeft div {
+    padding: 10px;
+}
+.bottomLeftLeft span {
+    display: block;
+    text-align: right;
+}
+.bottomLeftRight span {
+    display: block;
+    text-align: left !important;
+}
+.bottomRight {
+    display: flex;
+    flex-direction: row;
+}
+.bottomRight div {
+    padding: 10px;
+
+}
+.topGrey {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #eee;
+    margin: 0;
+    border-radius: 0.3rem 0.3rem 0 0;
+    /* border-bottom: 1.5px solid #ccc; */
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+
+}
+.topGrey span {
+    padding: 10px;
+}
+.poke_types span {
+    padding: 3px 6px;
+    border-radius: 1rem;
+    text-align: center;
+    margin: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: capitalize !important;
+}
+@media screen and (max-width: 480px) {
+    .bottom_info_data {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .imgs {
+        width: 180px;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .flexBox span {
+        margin-right: 5px;
+    }
+  }
